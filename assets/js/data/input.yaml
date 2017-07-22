@@ -1,54 +1,82 @@
 -
-  title  : Text Input
+  title  : textInput
   fields :
     id:
-      label  : ID / Name
+      label  : ID
       type   : input
       value  : textinput
     label:
       label  : Label Text
       type   : input
       value  : Text Input
+    indent:
+      label  : Indent Label?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : true
+        -
+          value    : 0
+          label    : No
+          selected : false
     placeholder:
       label  : Placeholder
       type   : input
       value  : placeholder
-    helptext:
-      label  : Help Text
-      type   : input
-      value  : help
-    required:
-      label  : Required
-      type   : checkbox
-      value  : false
-    inputsize:
-      label  : Input Size
+    ctype:
+      label  : Data Type
       type   : select
-      value  : 
+      value  :
         -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
-          label    : Small
-          selected : false
-        -
-          value    : input-medium
-          label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
+          value    : varchar(50)
+          label    : Varchar(50)
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : varchar(100)
+          label    : Varchar(100)
           selected : false
+        -
+          value    : varchar(MAX)
+          label    : Varchar(MAX)
+          selected : false
+    copy:
+      label  : Copy?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : true
+        -
+          value    : 0
+          label    : No
+          selected : false
+    editable:
+      label  : Editable?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : true
+        -
+          value    : 0
+          label    : No
+          selected : false
+    required:
+      label  : Required?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : false
+        -
+          value    : 0
+          label    : No
+          selected : true
 -
   title  : Password Input
   fields :
@@ -75,7 +103,7 @@
     inputsize:
       label  : Input Size
       type   : select
-      value  : 
+      value  :
         -
           value    : input-mini
           label    : Mini
@@ -126,7 +154,7 @@
     inputsize:
       label  : Input Size
       type   : select
-      value  : 
+      value  :
         -
           value    : input-mini
           label    : Mini
@@ -300,7 +328,7 @@
           value    : input-small
           label    : Small
           selected : false
-        - 
+        -
           value    : input-medium
           label    : Medium
           selected : false
@@ -355,7 +383,7 @@
           value    : input-small
           label    : Small
           selected : false
-        - 
+        -
           value    : input-medium
           label    : Medium
           selected : false
@@ -378,7 +406,7 @@
       label  : ID / Name
       type   : input
       value  : buttondropdown
-    label: 
+    label:
       label: Label Text
       type:  input
       value: Button Drop Down
@@ -401,7 +429,7 @@
     inputsize:
       label  : Input Size
       type   : select
-      value  : 
+      value  :
         -
           value: input-mini
           label    : Mini
@@ -410,7 +438,7 @@
           value    : input-small
           label    : Small
           selected : false
-        - 
+        -
           value    : input-medium
           label    : Medium
           selected : false
