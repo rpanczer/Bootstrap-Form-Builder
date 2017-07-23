@@ -78,394 +78,223 @@
           label    : No
           selected : true
 -
-  title  : Password Input
+  title  : mTextInput
   fields :
     id:
-      label  : ID / Name
+      label  : ID
       type   : input
-      value  : passwordinput
+      value  : textinput
     label:
       label  : Label Text
       type   : input
-      value  : Password Input
-    placeholder:
-      label  : Placeholder
-      type   : input
-      value  : placeholder
-    helptext:
-      label  : Help Text
-      type   : input
-      value  : help
-    required:
-      label  : Required
-      type   : checkbox
-      value  : false
-    inputsize:
-      label  : Input Size
+      value  : Text Input
+    indent:
+      label  : Indent Label?
       type   : select
       value  :
         -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
-          label    : Small
-          selected : false
-        -
-          value    : input-medium
-          label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
+          value    : 1
+          label    : Yes
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : 0
+          label    : No
           selected : false
--
-  title  : Search Input
-  fields :
-    id:
-      label  : ID / Name
-      type   : input
-      value  : searchinput
-    label:
-      label  : Label Text
-      type   : input
-      value  : Search Input
     placeholder:
       label  : Placeholder
       type   : input
       value  : placeholder
-    helptext:
-      label  : Help Text
-      type   : input
-      value  : help
-    required:
-      label  : Required
-      type   : checkbox
-      value  : false
-    inputsize:
-      label  : Input Size
+    copy:
+      label  : Copy?
       type   : select
       value  :
         -
-          value    : input-mini
-          label    : Mini
+          value    : 1
+          label    : Yes
           selected : false
         -
-          value    : input-small
-          label    : Small
-          selected : false
-        -
-          value    : input-medium
-          label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
+          value    : 0
+          label    : No
           selected : true
-        -
-          value    : input-xxlarge
-          label    : Xxlarge
-          selected : false
--
-  title  : Prepended Text
-  fields :
-    id:
-      label  : ID / Name
-      type   : input
-      value  : prependedtext
-    label:
-      label  : Label Text
-      type   : input
-      value  : Prepended Text
-    prepend:
-      label  : Prepend
-      type   : input
-      value  : prepend
-    placeholder:
-      label  : Placeholder
-      type   : input
-      value  : placeholder
-    helptext:
-      label  : Help Text
-      type   : input
-      value  : help
-    required:
-      label  : Required
-      type   : checkbox
-      value  : false
-    inputsize:
-      label: Input Size
-      type: select
-      value:
-        -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
-          label    : Small
-          selected : false
-        -
-          value    : input-medium
-          label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
-          selected : true
-        -
-          value    : input-xxlarge
-          label    : Xxlarge
-          selected : false
--
-  title  : Appended Text
-  fields :
-    id:
-      label  : ID / Name
-      type   : input
-      value  : appendedtext
-    label:
-      label  : Label Text
-      type   : input
-      value  : Appended Text
-    append:
-      label  : Append
-      type   : input
-      value  : append
-    placeholder:
-      label  : Placeholder
-      type   : input
-      value  : placeholder
-    helptext:
-      label  : Help Text
-      type   : input
-      value  : help
-    required:
-      label  : Required
-      type   : checkbox
-      value  : false
-    inputsize:
-      label: Input Size
-      type: select
-      value:
-        -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
-          label    : Small
-          selected : false
-        -
-          value    : input-medium
-          label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
-          selected : true
-        -
-          value    : input-xxlarge
-          label    : Xxlarge
-          selected : false
--
-  title  : Prepended Checkbox
-  fields :
-    id:
-      label  : ID / Name
-      type   : input
-      value  : prependedcheckbox
-    label:
-      label  : Label Text
-      type   : input
-      value  : Prepended Checkbox
-    placeholder:
-      label  : Placeholder
-      type   : input
-      value  : placeholder
-    helptext:
-      label  : Help Text
-      type   : input
-      value  : help
-    checked:
-      label  : Checked
-      type   : checkbox
-      value  : false
-    required:
-      label  : Required
-      type   : checkbox
-      value  : false
-    inputsize:
-      label: Input Size
-      type: select
-      value:
-        -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
-          label    : Small
-          selected : false
-        -
-          value    : input-medium
-          label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
-          selected : true
-        -
-          value    : input-xxlarge
-          label    : Xxlarge
-          selected : false
--
-  title  : Appended Checkbox
-  fields :
-    id:
-      label  : ID / Name
-      type   : input
-      value  : appendedcheckbox
-    label:
-      label  : Label Text
-      type   : input
-      value  : Appended Checkbox
-    placeholder:
-      label  : Placeholder
-      type   : input
-      value  : placeholder
-    helptext:
-      label  : Help Text
-      type   : input
-      value  : help
-    checked:
-      label  : Checked
-      type   : checkbox
-      value  : false
-    required:
-      label  : Required
-      type   : checkbox
-      value  : false
-    inputsize:
-      label: Input Size
-      type: select
-      value:
-        -
-          value    : input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
-          label    : Small
-          selected : false
-        -
-          value    : input-medium
-          label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
-          selected : true
-        -
-          value    : input-xxlarge
-          label    : Xxlarge
-          selected : false
--
-  title: Button Drop Down
-  fields:
-    id:
-      label  : ID / Name
-      type   : input
-      value  : buttondropdown
-    label:
-      label: Label Text
-      type:  input
-      value: Button Drop Down
-    placeholder:
-      label  : Placeholder
-      type   : input
-      value  : placeholder
-    buttontext:
-      label  : Button Text
-      type   : input
-      value  : Action
-    buttonoptions:
-      label  : Options
-      type   : textarea-split
-      value  : ["Option one", "Option two", "Option three"]
-    required:
-      label  : Required
-      type   : checkbox
-      value  : false
-    inputsize:
-      label  : Input Size
+    editable:
+      label  : Editable?
       type   : select
       value  :
         -
-          value: input-mini
-          label    : Mini
-          selected : false
-        -
-          value    : input-small
-          label    : Small
-          selected : false
-        -
-          value    : input-medium
-          label    : Medium
-          selected : false
-        -
-          value    : input-large
-          label    : Large
-          selected : false
-        -
-          value    : input-xlarge
-          label    : Xlarge
+          value    : 1
+          label    : Yes
           selected : true
         -
-          value    : input-xxlarge
-          label    : Xxlarge
+          value    : 0
+          label    : No
           selected : false
+    required:
+      label  : Required?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : false
+        -
+          value    : 0
+          label    : No
+          selected : true
 -
-  title  : Text Area
+  title  : comboBox
   fields :
     id:
-      label  : ID / Name
+      label  : ID
       type   : input
-      value  : textarea
+      value  : textinput
     label:
       label  : Label Text
       type   : input
-      value  : Text Area
-    textarea:
-      label  : Starting Text
-      type   : textarea
-      value  : default text
+      value  : Combo Box
+    indent:
+      label  : Indent Label?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : true
+        -
+          value    : 0
+          label    : No
+          selected : false
+    placeholder:
+      label  : Placeholder
+      type   : input
+      value  : placeholder
+    copy:
+      label  : Copy?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : false
+        -
+          value    : 0
+          label    : No
+          selected : true
+    editable:
+      label  : Editable?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : true
+        -
+          value    : 0
+          label    : No
+          selected : false
+    required:
+      label  : Required?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : false
+        -
+          value    : 0
+          label    : No
+          selected : true
+    addentries:
+      label  : Add Entries?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : true
+        -
+          value    : 0
+          label    : No
+          selected : false
+    init:
+      label  : Init
+      type   : input
+      value  : textinput
+-
+  title  : mComboBox
+  fields :
+    id:
+      label  : ID
+      type   : input
+      value  : textinput
+    label:
+      label  : Label Text
+      type   : input
+      value  : Multi Combo Box
+    indent:
+      label  : Indent Label?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : true
+        -
+          value    : 0
+          label    : No
+          selected : false
+    placeholder:
+      label  : Placeholder
+      type   : input
+      value  : placeholder
+    copy:
+      label  : Copy?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : false
+        -
+          value    : 0
+          label    : No
+          selected : true
+    editable:
+      label  : Editable?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : true
+        -
+          value    : 0
+          label    : No
+          selected : false
+    required:
+      label  : Required?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : false
+        -
+          value    : 0
+          label    : No
+          selected : true
+    addentries:
+      label  : Add Entries?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : true
+        -
+          value    : 0
+          label    : No
+          selected : false
+    init:
+      label  : Init
+      type   : input
+      value  : textinput

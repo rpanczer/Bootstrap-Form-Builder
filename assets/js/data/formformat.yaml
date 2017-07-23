@@ -1,0 +1,57 @@
+-
+  title  : label
+  fields :
+    label:
+      label  : Label Text
+      type   : input
+      value  : Text Input
+    indent:
+      label  : Alert?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : true
+        -
+          value    : 0
+          label    : No
+          selected : false
+-
+  title  : form
+  fields :
+    label:
+      label  : Form Heading
+      type   : input
+      value  : Text Input
+    invisible:
+      label  : Invisible?
+      type   : select
+      value  :
+        -
+          value    : 1
+          label    : Yes
+          selected : false
+        -
+          value    : 0
+          label    : No
+          selected : true
+-
+  title  : hiddenfield
+  fields :
+    label:
+      label  : ID
+      type   : input
+      value  : Text Input
+    datatype:
+      label  : Datatype
+      type   : select
+      value  :
+        -
+          value    : varchar(100)
+          label    : Varchar(100)
+          selected : true
+        -
+          value    : varchar(MAX)
+          label    : Varchar(MAX)
+          selected : false
